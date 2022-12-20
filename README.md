@@ -13,12 +13,23 @@ Development of a front end application to add photos that will be stored in fira
 <img src="src/assets/layout.png"/>
 
 
-## How to run the project?
+## How to run the project? 
 
 The steps to access the project are very simple, but follow in the following order:
 
 ```bash
 npm install
+```
+
+Configuring your file (.env) or dotenv
+
+```bash
+VITE_FIREBASE_APIKEY=
+VITE_FIREBASE_AUTHDOMAIN=
+VITE_FIREBASE_PROJECTID=
+VITE_FIREBASE_STORAGEBUCKET=
+VITE_FIREBASE_MESSEAGINGSENDERID=
+VITE_FIREBASE_APPID=
 ```
 
 ## Technologies 
